@@ -1,0 +1,324 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    
+    display: flex; 
+    
+}
+
+.leftSide{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    height: 780px;
+    width: 400px;
+    background-image: url(./rainy1.jpeg);
+    background-size: cover ;
+  
+}
+/* leftSideHeader */
+.leftSideHeader{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;    
+}
+
+#celcius{
+    margin-right: -80px;
+    font-size: 15px;
+}
+#fahernite{
+    margin-left: -80px;
+    font-size: 15px;
+}
+
+/* leftSideBody */
+.leftSideBody{
+    display: flex;
+    margin: 20px; 
+    flex-direction: column;
+}
+
+#city{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#nearme{
+    font-size: 16px;
+}
+#wb_twilight{
+    margin-left:40px ;
+    margin-right:10px ;
+    font-size: 15px;
+    
+}
+#riseTime{
+    font-size: 20px;
+    
+}
+#date{
+    font-size: 12px;
+}
+#wb_twilight_2{
+    margin-left:142px ;
+    margin-right:10px ;
+    font-size: 15px;
+
+}
+#setTime{
+    font-size: 20px;
+
+}
+/* temperatureBody */
+.temperatureHolder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#temperature{
+    font-size: 120px; 
+    
+}
+#leftArrow{
+    margin-top: 80px;
+}
+#rightArrow{
+    margin-top: 80px;
+}
+/* iconSunnyHolder */
+.iconSunnyHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: -80px;
+}
+#icon{
+    margin-right: 10px;
+}
+
+/* 
+*
+*
+*
+*/
+/* rightSide */
+.rightSide{
+    background-color: #E3F1FF;
+    border-radius: 25px;
+    height: 780px;
+    width: 1100px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+}
+.rightSideHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#profileDots{
+    margin-right: 15px;
+    
+}
+#profilePotrait{
+    font-size: 30px;
+}
+/* rightSideBody */
+.rightSideBody{
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 950px;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+}
+.rightSideBodyHeader{
+    display: flex;
+    justify-content: space-between;
+}
+#graph{
+    height: 500px;
+    width: 500px;
+  
+}
+    
+#rainArrowDown{
+  font-size: 12px;
+  position:relative;
+  
+   
+}
+#iconRain{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #C5C5C5;
+    padding: 10px;
+    
+}
+#iconNextDay{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+#iconNextSideArrow{ 
+    font-size: 12px;
+    position:relative;
+}
+
+.weatherDetailsHolder{
+    display: flex;
+    flex-direction: column;
+}
+#weatherDetailsTitle{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.weatherDetailsContainer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.weatherCard{
+    background-color: white;
+    height: 120px;
+    width:250px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#humidity{
+    display: flex;
+    justify-content: space-between; 
+}
+  
+#wind{
+    display: flex;
+    justify-content: space-between; 
+  
+}
+#preciptation{
+    display: flex;
+    justify-content: space-between; 
+}
+.weatherDetailsContainer2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+#uvIndex{
+    display: flex;
+    justify-content: space-between;  
+}
+#feelsLike{
+    display: flex;
+    justify-content: space-between; 
+}
+#chanceOfRain{
+    display: flex;
+    justify-content: space-between; 
+
+}
+#chanceOfRainPercentage{
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#chanceOfRainProgressBar{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+#feelsLikeProgressBar{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+#feelsLikeDegree{
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#uvIndexValue{
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#humidityPercentage{
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#precipitationValue{
+    font-size: 30px;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+#windValue{
+    font-size: 30px;
+    padding-left: 60px;
+    margin-top: 10px;
+}
+#humidityProgressBar{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+.semiCircleProgressionBar{
+        --percentage: 0;
+        --fill:#5C9BE5;
+        width: 300px;
+        height: 100px;
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        overflow: hidden;
+        color: var(--fill);
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        box-sizing : border-box;
+        &:after{
+          content: '';
+          width: 250px;
+          height: 250px;
+          border:50px solid;
+          border-color :#DCDCDC #DCDCDC var(--fill) var(--fill);
+          position: absolute;
+          border-radius: 50%;
+          left: 0;
+          top: 0;
+          box-sizing : border-box;
+        }
+      }
+#windSpeed{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+#preciptationProgressBar{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
+#uvIdexProgressBar{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 35px;
+}
